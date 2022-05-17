@@ -1,0 +1,27 @@
+{
+    "name": "samueletur/galax-pay",
+    "description": "Laravel package to integrate with Galax Pay api",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Samueletur\\GalaxPay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Samuel Etur",
+            "email": "samuel@incode.com.br"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Samueletur\\GalaxPay\\Providers\\GalaxPayServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    }
+}
